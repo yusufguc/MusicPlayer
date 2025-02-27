@@ -28,33 +28,33 @@ def play():
     music.config(text=music_name[0:-4])
 
 
-icon_photo=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\logo (1).png")
+icon_photo=PhotoImage(file=\logo (1).png")
 root.iconphoto(False,icon_photo)
 
-top_photo=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\top (2).png")
+top_photo=PhotoImage(file="top (2).png")
 Label(root,image=top_photo,bg="yellow").pack()
 
-logo_photo=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\logo (1).png")
+logo_photo=PhotoImage(file="logo (1).png")
 Label(root,image=logo_photo,bg="yellow").place(x=65,y=115)
 
 
-play_button=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\icons8-play-button-100.png")
+play_button=PhotoImage(file="icons8-play-button-100.png")
 Button(root,image=play_button,bg="yellow",bd=0,command=play).place(x=100,y=400)
 
-stop_button=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\icons8-stop-circled-100.png")
+stop_button=PhotoImage(file="icons8-stop-circled-100.png")
 Button(root,image=stop_button,bg="yellow",bd=0,command=mixer.music.stop).place(x=210,y=500)
 
-resume_button=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\icons8-resume-button-100.png")
+resume_button=PhotoImage(file="icons8-resume-button-100.png")
 Button(root,image=resume_button,bg="yellow",bd=0,command=mixer.music.unpause).place(x=125,y=500)
 
-pause_button=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\icons8-pause-button-100.png")
+pause_button=PhotoImage(file="icons8-pause-button-100.png")
 Button(root,image=pause_button,bg="yellow",bd=0,command=mixer.music.pause).place(x=30,y=500)
 
 music=Label(root,text="",font=("arial",15),fg="#0f1a2b",bg="yellow")
 music.place(x=150,y=340,anchor="center")
 
 
-menu=PhotoImage(file="C:\\Users\\uzayv\\Downloads\\menu.png")
+menu=PhotoImage(file="Downloads\\menu.png")
 Label(root,image=menu,bg="yellow",).pack(padx=10,pady=50,side=RIGHT)
 
 musİc_Frame=Frame(root,bd=2,relief=RIDGE)
